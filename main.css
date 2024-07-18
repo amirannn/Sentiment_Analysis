@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: bnazanin;
+    src: url('fonts/B-NAZANIN.TTF');
+}
+@font-face {
+    font-family: btitr;
+    src: url('fonts/B Titr Bold.ttf');
+}
+body {
+    background-image: url('image/bg.jpg');
+    background-size: cover;
+}
+#header-h1 {
+    direction: rtl;
+    text-align: center;
+    font-size: 50px;
+    font-family: btitr;
+    color:rgb(59, 59, 59);
+}
+#header-h3 {
+    direction: rtl;
+    text-align: center;
+    font-size: 30px;
+    font-family: bnazanin;
+    color:rgb(59, 59, 59);
+    font-weight: bold;
+    margin-top: 20px;
+}
+#p-styles {
+    direction: rtl;
+    text-align: center;
+    font-size: 50px;
+    font-family: btitr;
+    color:rgb(59, 59, 59);
+}
+#p-styles2 {
+    direction: rtl;
+    text-align: center;
+    font-size: 30px;
+    font-family: bnazanin;
+    color:rgb(59, 59, 59);
+    font-weight: bold;
+}
+.background-color {
+    background-color:lightblue; 
+    text-align: center;
+  }
+.center {
+    width: 100%;
+    justify-content: center;
+    align-items: center;    
+  }
+  .center form {
+    display: flex;
+
+  }
+  .textinput{
+    margin-right: auto;
+    margin-left: auto;
+    padding: 1rem;
+    margin-top: 10px;
+    border-radius: 20px;
+    height: 300px;
+    width: 1000px;
+    box-shadow : 10px 10px 5px gray;
+  }
+  textarea {
+    resize: none;
+    width: 300px;
+    height: 200px;
+    font-size: 20px !important;
+    font-family: Bnazanin !important;
+  }
+  .inputfile{
+    box-shadow : 10px 10px 5px gray;
+    border-radius: 20px;
+    margin-right: 31%;
+    width: 40% !important;
+}
+.form-control {
+  display: block !important;  
+}
+.container {
+  width: 100%;
+  font-size: 0;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.half-textbox {
+  display: inline-block;
+  width: 46%;
+  box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+  text-align: center;
+  background-color: rgb(247, 247, 247);
+  border-radius: 10px;
+  border: 2px solid rgb(80, 80, 80);
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-top: 10px;
+  box-shadow : 10px 10px 5px gray;
+  font-family: bnazanin;
+  vertical-align: top;
+}
+.button {
+  text-align: center;
+}
